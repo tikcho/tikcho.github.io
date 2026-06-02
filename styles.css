@@ -48,6 +48,38 @@ h1 {
   font-size: clamp(2rem, 5vw, 3rem);
 }
 
+.demo-card {
+  display: block;
+  margin: 1.5rem auto 0;
+  padding: 1rem 1.1rem;
+  max-width: 360px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #eff6ff, #f8fafc);
+  border: 1px solid #dbeafe;
+  box-shadow: 0 12px 32px rgba(30, 41, 59, 0.08);
+  text-align: left;
+}
+
+.demo-card strong,
+.demo-card span {
+  display: block;
+}
+
+.demo-card strong {
+  color: #111827;
+  margin-bottom: 0.25rem;
+}
+
+.demo-card span {
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+.demo-card:hover {
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
 .subtitle {
   margin: 1rem 0 1.75rem;
   color: #475569;
