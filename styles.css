@@ -64,8 +64,46 @@ h1 {
   font-size: 1rem;
 }
 
-.links span {
-  color: #94a3b8;
+ .social-links {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.icon-link {
+  width: 3rem;
+  height: 3rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+  color: #2563eb;
+  transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.icon-link:hover {
+  transform: translateY(-2px);
+  background: #eef2ff;
+  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.12);
+}
+
+.icon-link svg {
+  width: 1.35rem;
+  height: 1.35rem;
+  fill: currentColor;
+}
+
+.icon-link.mail {
+  color: #D93025;
+}
+
+.icon-link.mail:hover {
+  background: #feece9;
+  box-shadow: 0 10px 25px rgba(217, 48, 37, 0.08);
 }
 
 @media (max-width: 480px) {
