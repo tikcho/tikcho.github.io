@@ -20,6 +20,8 @@ body {
   display: grid;
   place-items: center;
   padding: 2rem;
+  background:
+    radial-gradient(circle at top, #ecfeff 0%, #f8fafc 35%, #eef2ff 100%);
 }
 
 a {
@@ -85,6 +87,47 @@ h1 {
   margin: 1rem 0 1.75rem;
   color: #475569;
   font-size: 1rem;
+}
+
+.demo-page {
+  background: linear-gradient(145deg, #0f172a 0%, #111827 45%, #1e293b 100%);
+  color: #eff6ff;
+}
+
+.demo-content {
+  text-align: left;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.78rem;
+  color: #67e8f9;
+}
+
+.lead {
+  font-size: 1.08rem;
+  color: #dbeafe;
+  margin-bottom: 1rem;
+}
+
+.description {
+  color: #e2e8f0;
+  max-width: 48rem;
+}
+
+.feature-list {
+  padding-left: 1.1rem;
+  color: #e0f2fe;
+  line-height: 1.6;
+}
+
+.footer-link {
+  margin-top: 1.5rem;
+}
+
+.footer-link a {
+  color: #67e8f9;
 }
 
 .links {
