@@ -54,10 +54,11 @@ h1 {
   padding: 1rem 1.1rem;
   max-width: 360px;
   border-radius: 18px;
-  background: linear-gradient(135deg, #eff6ff, #f8fafc);
-  border: 1px solid #dbeafe;
-  box-shadow: 0 12px 32px rgba(30, 41, 59, 0.08);
+  background: linear-gradient(135deg, #22d3ee, #1e293b);
+  /* border: 1px solid #164e63; */
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.18);
   text-align: left;
+  color: #eff6ff;
 }
 
 .demo-card strong,
@@ -66,12 +67,12 @@ h1 {
 }
 
 .demo-card strong {
-  color: #111827;
+  color: #f8fafc;
   margin-bottom: 0.25rem;
 }
 
 .demo-card span {
-  color: #475569;
+  color: #dbeafe;
   font-size: 0.95rem;
 }
 
