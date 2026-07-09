@@ -45,6 +45,13 @@ a:hover {
   text-align: center;
 }
 
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
 h1 {
   margin: 0;
   font-size: clamp(2rem, 5vw, 3rem);
@@ -65,15 +72,25 @@ h1 {
 
 .demo-card {
   display: block;
-  margin: 1.5rem auto 0;
-  padding: 1rem 1.1rem;
-  max-width: 480px;
+  margin: 0;
+  padding: 1.1rem 1.2rem;
+  min-height: 100%;
   border-radius: 18px;
-  background: linear-gradient(135deg, #22d3ee, #1e293b);
-  /* border: 1px solid #164e63; */
   box-shadow: 0 12px 32px rgba(15, 23, 42, 0.18);
   text-align: left;
   color: #eff6ff;
+}
+
+.gemi-card {
+  background: linear-gradient(135deg, #22d3ee, #1e293b);
+}
+
+.avangardi-card {
+  background: linear-gradient(135deg, #f2b15b, #c96f1d);
+}
+
+.korda-card {
+  background: linear-gradient(135deg, #2563eb, #0c1b3a);
 }
 
 .demo-card strong,
@@ -200,6 +217,12 @@ h1 {
 .icon-link.mail:hover {
   background: #feece9;
   box-shadow: 0 10px 25px rgba(217, 48, 37, 0.08);
+}
+
+@media (max-width: 900px) {
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 640px) {
