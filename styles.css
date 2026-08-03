@@ -109,7 +109,18 @@ h1 {
 }
 
 .korda-card {
-  background: linear-gradient(135deg, #2563eb, #0c1b3a);
+  background:
+    linear-gradient(135deg, #4e6782 0%, #39556f 45%, #2c4159 100%);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 16px 36px rgba(44, 65, 89, 0.28);
+}
+
+.korda-card strong {
+  color: #f7f4ee;
+}
+
+.korda-card span {
+  color: #e7ecf1;
 }
 
 .demo-card strong,
